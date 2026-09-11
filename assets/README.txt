@@ -1,0 +1,1 @@
+Grace & Co portrait assets are managed from the site repository.
