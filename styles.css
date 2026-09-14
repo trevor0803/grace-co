@@ -2,7 +2,7 @@
 /* Photo-led refinement */
 .home-photo-hero{background-image:url('/assets/home-hero-sharp.jpg');background-position:center 46%}
 .home-photo-hero:before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(15,55,82,.08);pointer-events:none}
-.portrait img{filter:saturate(.88) contrast(.97)}
+.portrait img{object-position:center 14%;filter:saturate(.9) contrast(1.02) brightness(.98)}
 .about-profile-hero{background:linear-gradient(120deg,#153f63,#082d4f);color:#fff;padding:64px 0}
 .about-profile-grid{display:grid;grid-template-columns:minmax(330px,.86fr) 1.14fr;gap:70px;align-items:center}
 .about-profile-photo{position:relative;height:570px;border-radius:30px;overflow:hidden;box-shadow:0 28px 70px rgba(2,20,36,.32);background:#dcecf7}
